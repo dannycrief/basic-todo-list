@@ -12,8 +12,8 @@ def test_xpass():
     assert False
 
 
-def test_unexpected_fail():
-    assert False
+# def test_unexpected_fail():
+#     assert False
 
 
 # @pytest.mark.parametrize('param1', [0, 1, 2])
