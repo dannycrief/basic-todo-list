@@ -72,18 +72,18 @@ class TextxFailsCase(unittest.TestCase):
         self.fail("this test should fail")
 
 
-class TestSetUp(unittest.TestCase):
-    def setUp(self):
-        print(1)
-
-    def test_doing_nothing(self):
-        self.assertTrue(True)
-
-    def test_doing_nothing_fail(self):
-        self.assertFalse(True)
-
-    def tearDown(self):
-        print(2)
+# class TestSetUp(unittest.TestCase):
+#     def setUp(self):
+#         print(1)
+#
+#     def test_doing_nothing(self):
+#         self.assertTrue(True)
+#
+#     def test_doing_nothing_fail(self):
+#         self.assertFalse(True)
+#
+#     def tearDown(self):
+#         print(2)
 
 
 if __name__ == '__main__':
